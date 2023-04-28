@@ -1,0 +1,65 @@
+body {
+    background-size: 100%;
+ 
+    font-size: 40pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+text-decoration-color: black;
+  
+  
+    
+}
+h2{
+    color: rgb(255, 0, 200);
+    font-size: 40px;
+    line-height: 30px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{ color: rgb(255, 0, 200);
+    font-size: 40px;
+    line-height: 30px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+   }
+h4{
+    color: rgb(255, 0, 200);
+    font-size: 40px;
+    line-height: 30px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h5{
+    color: rgb(255, 0, 200);
+    font-size: 40px;
+    line-height: 30px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h6{
+    color: rgb(255, 0, 200);
+    font-size: 40px;
+    line-height: 30px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+hr{max-height: 1cm;}
+
+
+
+.green{
+    color: rgb(234, 58, 58);
+}
+#first{font-weight: bold;}
+a{
+    color: #000000 ;
+    font-size: 50px;
+    text-align: right;
+}
