@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Basics Demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <head>
+        <title>Your Title</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="苹果小小书.css" />
+  </head>
+  <body>
+    <h1>《APPLE GEEK TALK》</h1>
+    <p>A concrete thing, always has a lot of properties and relations, we call it collectively attributes. As the first creature to create tools, he will have different emotions towards his creations when looking at food, tools and art.
+     <br> 
+     Man created these objects to serve him, and when he did not realize that they lived independently, to use them was to consider their full scope.
+    
+      <br> 
+      <br> 
+      <br> 
+      When these different times of the ubiquitous apple (meaning everything) into an independent special meaning of the abnormal apple, exudes the so-called sense of humor and playfulness
+It is to break through the rigid perception that:
+      <br> 
+      As long as it can be processed visually, anything can be given a meaning that it does not have, and the necessity of interpretation that is imposed on things is defeated.</p>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img height=400 src="个人作品集/苹果大书/苹果大书封面-02.jpg"width=“150px”/>   
+      <br>
+      <br>  
+      <img height=200 src="个人作品集/苹果大书/大海报.jpg"width=“150px”/>   
+      <br>
+      <br>  
+     
+    <style>
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background: green;
+        margin: 50px;
+        padding: 20px;
+        border: 10px solid pink;
+      }
+
+      #content {
+        box-sizing: content-box;
+      }
+      #border {
+        box-sizing: border-box;
+      }
+
+      .img-box {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .imgs {
+        position: relative;
+        width: 600px;
+        height: 600px;
+        animation: round 9s infinite;
+      }
+      @keyframes round {
+        0% {
+          rotate: 0deg;
+        }
+        100% {
+          rotate: 360deg;
+        }
+      }
+      .imgs a {
+        position: absolute;
+        display: inline-block;
+        width: 130px;
+        height: 100px;
+      }
+      .img1 {
+        left: 50%;
+        top: 0;
+        transform: translate(-50%);
+      }
+      
+      .imgs a::after {
+        content: "";
+        display: inline-block;
+        width: 130px;
+        height: 100px;
+        background-size: contain;
+      }
+      .img1::after {
+        background: url("./个人作品集/苹果大书/贴纸.PNG") no-repeat;
+      }
+      h1{
+        font-family: fantasy;
+      }
+
+    </style>
+    
+    <div class="img-box">
+      <div class="imgs">
+        <a class="img1" href="./苹果小小书.html"></a>
+       
+  
+        <!-- <img height=150 src="个人作品集/苹果书/12的副本.jpg"width=“150px”/>  -->
+      </div>
+    </div>
+    <img height=200 src="个人作品集/苹果大书/主视觉海报-1.jpg"width=“150px”/>     
+    <img height=200 src="个人作品集/苹果大书/主视觉海报-2.jpg"width=“150px”/>     
+    <img height=200 src="个人作品集/苹果大书/主视觉海报-3.jpg"width=“150px”/>  
+    <img height=200 src="个人作品集/苹果大书/设计物料-贴纸实物.png"width=“150px”/> 
+   
+   <a href="../css-demo/css-basics 1.html">back</a>
+
+    
+
+  </body>
+</html>

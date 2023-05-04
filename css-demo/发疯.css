@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 40%);
+
+    font-size: 25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 60px;
+    font-family: fantasy;
+    color: darkgray;
+  
+    
+}
+h1:hover{
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size:larger;
+    color: black;
+
+}
+h4{
+    background-color: rgb(255, 160, 255);
+    color: rgb(226, 0, 0);
+    font: size 50px;
+    line-height: 40px;
+    -webkit-line-break: 50px;
+}
+h5{
+    background-color: rgb(15, 67, 255);
+    color: rgb(255, 255, 255);
+    font: size 50px;
+    line-height: 40px;
+}
+p{
+    color: darkgray;
+    width: 80%;
+   
+    font-size: medium;
+     border: 2px solid rgb(114, 114, 114);
+        line-height: 1.5;
+        font-family: icomoon;
+        font-weight:bold;
+    
+    
+    }
+    p:hover {
+        background-color: rgb(189, 189, 189);
+        color: rgb(0, 0, 0);
+
+}
+
+.green{
+    color: rgb(234, 58, 58);
+}
+#first{font-weight: bold;}
+a{
+    color: rgb(254, 255, 255);
+    font-size: 30px;
+}
+#yuan1 {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    position: unset;
+    bottom: 300px;
+    right: 900px;
+    background-color: rgb(232, 86, 255);
+    z-index: 1;
+    border: 3px solid black;
+}
+#yuan1:hover {
+background-color: rgb(255, 255, 255);
+}

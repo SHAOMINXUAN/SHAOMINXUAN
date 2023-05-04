@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>css-exercise</title>
-		<meta charset="utf-8" />
+    <title>CSS Box Model</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" href="#" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="../main.css" />
+    <style>
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background: green;
+        margin: 60px;
+        padding: 20px;
+        border: 10px solid pink;
+      }
+
+      #content {
+        box-sizing: content-box;
+      }
+      #border {
+        box-sizing: border-box;
+        position:sticky;
+      }
+      p{
+       
+      }
+  span{
+    display: block;
+  }
+
+    </style>
   </head>
   <body>
+    <div class="box" id="content"></div>
+    <div class="box" id="border"></div>
+    <p>text</p>
 <h1>css-exercise</h1>
+
 <li><a href="../index.html">back</a></li>
-<li><a href="../css-demo/css-basics.html">Personal Portfolio11</a></li>
+<li><a href="../css-demo/css-basics 1.html">Personal Portfolio11</a></li>
 <li><a href="../css-demo/css-basics 22.html">Personal Portfolio22</a></li>
 <li><a href="../css-demo/css-basics 33.html">Personal Portfolio33</a></li>
 <li><a href="../css-demo/css-basics 44.html">Personal Portfolio44</a></li>
 <li><a href="../css-demo/css-basics 55.html">Personal Portfolio55</a></li>
+<li><a href="../css-demo/静物写生.html">静物</a></li>
   </body>
 </html>
