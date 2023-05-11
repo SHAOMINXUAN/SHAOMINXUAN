@@ -15,24 +15,58 @@ h2{
     font-size:larger;
 
 }
-h4{
-    background-color: rgb(255, 160, 255);
-    color: rgb(226, 0, 0);
+h4 {
     font: size 50px;
     line-height: 40px;
-    -webkit-line-break: 50px;
-}
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  background-color: rgb(255, 187, 255);
+  color: rgb(255, 75, 213);
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 h5{
     background-color: rgb(15, 67, 255);
     color: rgb(255, 255, 255);
     font: size 50px;
     line-height: 40px;
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  
+  
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
 }
 p{
     color: rgb(255, 75, 213);
     width: 60%;
     background-color: rgb(255, 187, 255);
     font-size:small;
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
 
 }
 

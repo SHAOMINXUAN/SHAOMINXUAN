@@ -1,0 +1,46 @@
+body {
+      width:fit-content;
+    font-size: 25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+  color: cornflowerblue;
+    
+}
+h2{
+    font-size:larger;
+
+}
+h4{
+    background-color: rgb(141, 179, 255);
+    color: rgb(32, 54, 255);
+    font: size 50px;
+    line-height: 40px;
+    -webkit-line-break: 50px;
+}
+h5{
+    background-color: rgb(15, 67, 255);
+    color: rgb(255, 255, 255);
+    font: size 50px;
+    line-height: 40px;
+}
+p{
+    color: rgb(255, 75, 213);
+    width: 60%;
+    background-color: rgb(255, 187, 255);
+    font-size:small;
+
+}
+.green{
+    color: rgb(234, 58, 58);
+}
+#first{font-weight: bold;}
+a{
+    color: rgb(102, 161, 255);
+    font-size: 30px;
+    text-align: center;
+}

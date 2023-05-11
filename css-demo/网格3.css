@@ -1,0 +1,17 @@
+body {
+    background-image:url(./个人作品集/背景.jpg);
+   
+}
+#yuan1 {
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  
+  background-color: rgb(10, 114, 45);
+  z-index: 1;
+  border: 3px solid rgb(255, 255, 255);
+}
+#yuan1:hover {
+background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Four Rectangle Grid</title>
+ <link rel="stylesheet" href="网格1.css" />
+ <style>
+  .container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   grid-gap: 10px;
+   width: 400px;
+   height: 400px;
+   margin: auto;
+  }
+  .box {
+   background-color: #000000;
+   border: 2px solid #ffffff;
+   text-align: center;
+   font-size: 36px;
+   font-weight: bold;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: background-color 0.5s ease;
+  }
+  
+  .box:hover {
+   background-color: #ffffff;
+   border-color: #000000;
+  }
+  .box:nth-child(2):hover {
+   background-color: #ffffff;
+   border-color: #000000;
+  }
+  .box:nth-child(3):hover {
+   background-color: #ffffff;
+   border-color: #000000;
+  }
+  .box:nth-child(4):hover {
+   background-color: #ffffff;
+   border-color: #000000;
+   
+  }
+ </style>
+</head>
+<body>
+ <div class="container">
+  <div class="box">溫</div>
+  <div class="box">良</div>
+  <div class="box">供</div>
+  <div class="box">儉</div>
+  <div id="yuan">
+    <a href="../css-exercise/index.html"><div id="yuan1"></div></a>
+    
+   
+   
+  </div>
+
+ </div>
+</body>
+</html>

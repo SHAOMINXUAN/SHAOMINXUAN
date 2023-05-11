@@ -1,0 +1,17 @@
+body {
+    background-image:url(./个人作品集/截屏2023-05-11\ 21.37.56.png);
+   
+}
+#yuan1 {
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+  border: 3px solid rgb(255, 255, 255);
+}
+#yuan1:hover {
+background-color: rgb(255, 255, 255);
+}

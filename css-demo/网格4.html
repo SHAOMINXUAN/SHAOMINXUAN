@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>网格4</title>
+ <link rel="stylesheet" href="网格4.css" />
+ <p>
+    草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草
+ </p>
+ <style>
+    .container {
+     width: 600px;
+     margin: 50px auto;
+    }
+    .grid {
+     width: 0;
+     height: 0;
+     border-top: 50px solid transparent;
+     border-left: 50px solid #2eea56;
+     border-right: 50px solid #2eea56;
+     border-bottom: 50px solid #2eea56;
+     display: inline-block;
+     position: relative;
+     margin: 5px;
+     transform: rotate(45deg);
+     overflow: hidden;
+     cursor: pointer;
+    }
+    .grid:hover {
+     transform: scale(1.2);
+    }
+    .grid:before {
+     content: "";
+     width: 100px;
+     height: 100px;
+     background-color: #ccc;
+     display: block;
+     position: absolute;
+     top: -10px;
+     left: -10px;
+     transform: rotate(45deg);
+    }
+    .grid-1 .triangle {
+     animation: rotate-in 1s ease-out forwards;
+    }
+    .grid-2 .triangle {
+     animation: bounce-in-top 1s ease-out forwards;
+    }
+    .grid-3 .triangle {
+     animation: bounce-in-right 1s ease-out forwards;
+    }
+    .grid-4 .triangle {
+     animation: bounce-in-bottom 1s ease-out forwards;
+    }
+    .grid-5 .triangle {
+     animation: bounce-in-left 1s ease-out forwards;
+    }
+    .grid-6 .triangle {
+     animation: bounce-in-left 1s ease-out forwards;
+    }
+    .grid-7 .triangle {
+     animation: bounce-in-left 1s ease-out forwards;
+    }
+    .grid-8 .triangle {
+     animation: bounce-in-left 1s ease-out forwards;
+    }
+    @keyframes rotate-in {
+     from {
+      transform: rotate(0);
+      opacity: 0;
+     }
+     to {
+      transform: rotate(720deg);
+      opacity: 1;
+     }
+    }
+    @keyframes bounce-in-top {
+     from {
+      transform: translateY(-100%);
+      opacity: 0;
+     }
+     50% {
+      transform: translateY(30px);
+     }
+     to {
+      transform: translateY(0);
+      opacity: 1;
+     }
+    }
+    @keyframes bounce-in-right {
+     from {
+      transform: translateX(100%);
+      opacity: 0;
+     }
+     50% {
+      transform: translateX(-30px);
+     }
+     to {
+      transform: translateX(0);
+      opacity: 1;
+     }
+    }
+    @keyframes bounce-in-bottom {
+     from {
+      transform: translateY(100%);
+      opacity: 0;
+     }
+     50% {
+      transform: translateY(-30px);
+     }
+     to {
+      transform: translateY(0);
+      opacity: 1;
+     }
+    }
+    @keyframes bounce-in-left {
+     from {
+      transform: translateX(-100%);
+      opacity: 0;
+     }
+     50% {
+      transform: translateX(30px);
+     }
+     to {
+      transform: translateX(0);
+      opacity: 1;
+     }
+    }
+   </style>
+  </head>
+  <body>
+   <div class="container">
+    <div class="grid grid-1">
+     <div class="triangle"></div>
+    </div>
+    <div class="grid grid-2">
+     <div class="triangle"></div>
+    </div>
+    <div class="grid grid-3">
+     <div class="triangle"></div>
+    </div>
+    <div class="grid grid-4">
+     <div class="triangle"></div>
+    </div>
+    <div class="grid grid-5">
+     <div class="triangle"></div>
+    </div>
+    <div class="grid grid-6">
+     <div class="triangle"></div>
+     <div class="grid grid-7">
+     <div class="triangle"></div>
+     <div class="grid grid-8">
+        <div class="triangle"></div>
+    </div>
+   </div>
+   
+  </body>
+  <a href="../css-exercise/index.html">YOU HAVE NO BACK</a>
+  </html>
+  

@@ -1,0 +1,26 @@
+body {
+    background-image:url(./个人作品集/背景2.jpg);
+   
+}
+p {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: green;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+a{
+  color: antiquewhite;
+}

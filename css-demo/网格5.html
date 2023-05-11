@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>24个圆形的网格</title>
+ <link rel="stylesheet" href="网格5.css" />
+ <style>
+  .container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   width: 600px;
+   margin: 50px auto;
+  }
+  .grid {
+   width: 100px;
+   height: 100px;
+   background-color: #ffffff;
+   border-radius: 50%;
+   margin: 10px;
+   position: relative;
+   overflow: hidden;
+   cursor: pointer;
+   transition: all 0.3s ease-out;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .grid:hover {
+   transform: scale(1.2);
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  .grid:before {
+   content: "";
+   width: 120px;
+   height: 120px;
+   background-color: #ffffff;
+   display: block;
+   position: absolute;
+   top: -10px;
+   left: -10px;
+   border-radius: 50%;
+  }
+  .text {
+   text-align: center;
+   color: #f02da9;
+   font-size: 24px;
+   font-weight: bold;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 1;
+  }
+ </style>
+</head>
+<body>
+ <div class="container">
+  <div class="grid">
+   <div class="text">1</div>
+  </div>
+  <div class="grid">
+   <div class="text">2</div>
+  </div>
+  <div class="grid">
+   <div class="text">3</div>
+  </div>
+  <div class="grid">
+   <div class="text">4</div>
+  </div>
+  <div class="grid">
+   <div class="text">5</div>
+  </div>
+  <div class="grid">
+   <div class="text">6</div>
+  </div>
+  <div class="grid">
+   <div class="text">7</div>
+  </div>
+  <div class="grid">
+   <div class="text">8</div>
+  </div>
+  <div class="grid">
+   <div class="text">9</div>
+  </div>
+  <div class="grid">
+   <div class="text">10</div>
+  </div>
+  <div class="grid">
+   <div class="text">11</div>
+  </div>
+  <div class="grid">
+   <div class="text">12</div>
+  </div>
+  <div class="grid">
+   <div class="text">13</div>
+  </div>
+  <div class="grid">
+   <div class="text">14</div>
+  </div>
+  <div class="grid">
+   <div class="text">15</div>
+  </div>
+  <div class="grid">
+   <div class="text">16</div>
+  </div>
+  <div class="grid">
+   <div class="text">17</div>
+  </div>
+  <div class="grid">
+   <div class="text">18</div>
+  </div>
+  <div class="grid">
+   <div class="text">19</div>
+  </div>
+  <div class="grid">
+   <div class="text">20</div>
+  </div>
+  <div class="grid">
+   <div class="text">21</div>
+  </div>
+  <div class="grid">
+   <div class="text">22</div>
+  </div>
+  <div class="grid">
+   <div class="text">23</div>
+  </div>
+  <div class="grid">
+   <div class="text">24</div>
+  </div>
+ </div>
+</body>
+</html>
